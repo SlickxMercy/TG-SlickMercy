@@ -31,7 +31,11 @@ pip install httpx
 
 cd storage/downloads
 
-https://github.com/SlickxMercy/TG-SlickMercy
+git clone https://github.com/SlickxMercy/TG-SlickMercy
+
+cd TG-SlickMercy
+
+python SlickMercy.py
 ```
 ### Ejecutar script
 ```bash
