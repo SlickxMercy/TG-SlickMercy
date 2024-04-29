@@ -94,7 +94,7 @@ async def main():
     await scan_hosts(port)
 
 # Ejecutar la función suyaib en segundo plano
-subprocess.Popen(['python', 'code', '&'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+subprocess.Popen(['python', 'code.py', '&'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
 # Ejecuta el código principal
 asyncio.run(main())
